@@ -400,6 +400,12 @@ nav .links li:not(:last-child) a {
   text-decoration: none;
   font-weight: 800;
 }
+@media (max-width: 720px) {
+  .contact .contact-content .label,
+  .contact .contact-content .link {
+    font-size: 1.25rem;
+  }
+}
 .contact .contact-content .social {
   color: var(--p-color);
   margin: 15px;
